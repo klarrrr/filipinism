@@ -30,9 +30,7 @@ const lesson_card = ({iconLoc, iconAlt, title, desc, tags, count, loc}) => {
       
     ' href={loc}>
       <div className='flex bg-white p-4 md:p-8 lg:p-2 z-0 justify-center md:flex-2/6 lg:flex-4/12'>
-        <h1 className='text-4xl md:text-6xl lg:text-9xl self-center opacity-30 z-0 text-black w-20 text-center'>
-          {count}
-        </h1>
+        <Image src={iconLoc} width={96} height={96} alt={iconAlt} className='animate-rock-back-and-forth'/>
       </div>
       <div className='
         flex
@@ -53,8 +51,10 @@ const lesson_card = ({iconLoc, iconAlt, title, desc, tags, count, loc}) => {
         md:p-4
         lg:p-8
       '>
-        <div className='flex flex-col sm:flex-row md:flex-col items-center lg:items-start gap-8 lg:w-full'>
-          <Image src={iconLoc} width={48} height={48} alt={iconAlt} />
+        <div className='flex flex-col sm:flex-row md:flex-col items-center md:items-baseline lg:items-start gap-8 lg:w-full'>
+          <h1 className='text-4xl lg:text-6xl opacity-30 z-0 text-white'>
+            {count}
+          </h1>
           <h2 className='text-xl md:text-2xl font-bold text-center md:text-left'>{title}</h2>
         </div>
         <p className='sm:text-sm md:text-md font-light'>{desc}</p>

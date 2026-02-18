@@ -1,4 +1,4 @@
-const primary_button = ({label, onClick}) => {
+const primary_button = ({label}) => {
     // TODO: Add Params that will make button dynamic
     return (
         <a
@@ -18,6 +18,8 @@ const primary_button = ({label, onClick}) => {
                 hover:-translate-y-0.5
                 hover:drop-shadow-2xl
                 duration-300
+                self-center
+                w-fit
             "
         >
         {label}

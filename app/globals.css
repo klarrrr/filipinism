@@ -73,6 +73,20 @@
   animation: rotBGimg 3s linear infinite
 }
 
+@keyframes backAndForth {
+  from {
+    transform: rotate(-10deg);
+  }
+
+  to {
+    transform: rotate(12deg);
+  }
+}
+
+.animate-rock-back-and-forth{
+  animation: backAndForth 2s alternate infinite ease-in-out
+}
+
 
 /* @media (prefers-color-scheme: dark) {
   :root {
