@@ -11,6 +11,10 @@ const stat_card = ({stat, title}) => {
         flex-1
         space-y-4
     ">
+        <p className="
+        text-md font-light text-(--white)">
+            {title}
+        </p>
         <h2 className="
             text-(--white) 
             text-4xl 
@@ -18,10 +22,6 @@ const stat_card = ({stat, title}) => {
         ">
             {stat}
         </h2>
-        <p className="
-        text-md font-light text-(--white)">
-            {title}
-        </p>
     </div>
   )
 }

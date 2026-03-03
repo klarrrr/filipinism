@@ -184,7 +184,7 @@ export default function Home() {
             <LessonCircle isComplete={true} number={2} title={'Everyday Examples'} location={'/lessons/everyday_examples'}/>
             <LessonCircle isComplete={true} number={3} title={'Historical Roots'} location={'/lessons/historical_roots'}/>
             <LessonCircle number={4} title={'Modern Relevance'} location={'/lessons/modern_relevance'}/>
-            <LessonCircle number={5} title={'Interactive Practice'} location={'/lessons/interactive_practice'}/>
+            <LessonCircle number={5} title={'Interactive Practice'} location={'/activities'}/>
             <LessonCircle number={6} title={'Deep Dive'} location={'/lessons/deep_dive'}/>
           </div>
         </div>

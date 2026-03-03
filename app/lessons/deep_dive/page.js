@@ -273,7 +273,7 @@ const page = () => {
                     alt='Children Group'
                     className='object-cover relative rounded-lg brightness-50 w-full h-56 md:h-96 lg:h-128'
                   />
-                  <h2 className='absolute text-white font-bold text-2xl md:text-4xl'>​​II. Lexical Competency</h2>
+                  <h2 className='absolute text-white font-bold text-lg sm:text-2xl md:text-4xl'>​​II. Lexical Competency</h2>
               </div>
 
               <p className='text-md lg:text-lg text-justify'>
