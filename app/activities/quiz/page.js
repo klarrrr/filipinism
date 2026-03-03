@@ -103,16 +103,17 @@ const page = () => {
   return (
     <div className='flex-1 w-full h-screen space-y-8 animate-fade-in'>
 
-      <div className='p-4 sm:p-8 flex gap-4 flex-col mb-0 md:p-16 lg:pl-32 lg:pr-32 xl:pl-64 xl:pr-64'>
+      <div className='p-4 sm:p-8 flex gap-4 flex-col mb-0 md:p-16 lg:pl-32 lg:pr-32 xl:pl-64 xl:pr-64 h-full md:h-auto'>
         
         {/* Back Button */}
 
         <BackButton loc={'/activities'} backToWhere={'Back to Activities'} />
         
         {/* Quiz Content */}
+
         {/* Start Quiz Initial Page */}
         
-        <div className={`${!didQuizStart ? 'block' : 'hidden'} rounded-2xl bg-linear-50 from-(--deep-blue) to-(--bright-blue) drop-shadow-md overflow-hidden p-16 lg:pl-32 lg:pr-32 justify-center items-center flex flex-col gap-8 h-128`}>
+        <div className={`${!didQuizStart ? 'block' : 'hidden'} rounded-2xl bg-linear-50 from-(--deep-blue) to-(--bright-blue) drop-shadow-md overflow-hidden p-16 lg:pl-32 lg:pr-32 justify-center items-center flex flex-col gap-8 h-full lg:h-128`}>
           
           {/* Title */}
 
@@ -120,7 +121,7 @@ const page = () => {
 
           {/* Subtitle */}
 
-          <p className="text-sm md:text-md text-center w-2/6">Direction: Choose the correct formal English expression for the underlined Filipinism in each sentence</p>
+          <p className="text-sm md:text-md text-center md:w-4/6 lg:w-2/6">Direction: Choose the correct formal English expression for the underlined Filipinism in each sentence</p>
 
           {/* Button */}
 
@@ -137,7 +138,7 @@ const page = () => {
 
         {/* TODO: change back the ? to hidden afterwards */}
 
-        <div className={`${!didQuizStart ? 'hidden' : 'block'} ${isQuizFinished && 'hidden'} rounded-2xl bg-white drop-shadow-md overflow-hidden p-16 lg:pl-32 lg:pr-32 justify-center items-center flex flex-col gap-8`}>
+        <div className={`${!didQuizStart ? 'hidden' : 'block'} ${isQuizFinished && 'hidden'} rounded-2xl bg-white drop-shadow-md overflow-hidden p-8 md:p-16 lg:pl-32 lg:pr-32 justify-center items-center flex flex-col gap-8 h-full md:h-auto`}>
           
           {/* Progress Bar */}
           <div className='border border-(--bright-blue) h-2 w-full rounded-2xl'>
@@ -154,7 +155,7 @@ const page = () => {
             <h4 className='text-(--bright-blue) self-start'>Question {quizPage + 1} out of {quizContent.length}</h4>
 
             {/* Question */}
-            <h3 className='text-(--deep-blue) text-xl font-medium self-start'>{quizContent[quizPage].question}</h3>
+            <h3 className='text-(--deep-blue) text-lg md:text-xl font-medium self-start'>{quizContent[quizPage].question}</h3>
           </div>
 
           {/* Choices container */}
@@ -225,7 +226,7 @@ const page = () => {
           </button>
         </div>
 
-        <div className={`${!isQuizFinished && 'hidden'} w-200 h-200 bg-white rounded-2xl drop-shadow-md overflow-hidden p-16 lg:pl-32 lg:pr-32 justify-center items-center flex flex-col gap-8 self-center`}>
+        <div className={`${!isQuizFinished && 'hidden'} lg:w-200 lg:h-200 bg-white rounded-2xl drop-shadow-md overflow-hidden p-16 lg:pl-32 lg:pr-32 justify-center items-center flex flex-col gap-8 self-center`}>
             <h1 className='text-(--bright-blue) text-8xl font-semibold'>{percentage}%</h1>
             <h2 className='text-(--dark-text) text-2xl text-center font-semibold'>
               {isQuizFinished && scoreMessages[messageKey].title}
@@ -237,10 +238,10 @@ const page = () => {
               You got {score} out of {quizContent.length} questions correct!
             </p>
             <div className='flex flex-row gap-4 *:p-4 *:rounded-lg *:hover:cursor-pointer *:hover:scale-103 *:transition *:ease-in-out *:duration-200'>
-                <button onClick={()=>{window.location.reload()}} className='text-(--bright-blue)'>
+                <button onClick={()=>{window.location.reload()}} className='text-(--bright-blue) text-center'>
                   Try Again
                 </button>
-                <a href='../activities' className='bg-(--bright-blue)'>
+                <a href='../activities' className='bg-(--bright-blue) text-center'>
                   Back To Activities
                 </a>
             </div>

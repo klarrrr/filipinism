@@ -264,7 +264,7 @@ const ExamplesCategories = () => {
                         <ExampleCategoryBtn 
                             key={key} 
                             content={key} 
-                            css={`${activeExample == key ? 'bg-(--deep-blue)' : 'bg-(--sky-blue) hover:bg-(--bright-blue)'} text-white transition duration-200 ease-in-out hover:scale-103 hover:cursor-pointer hover:shadow-lg active:scale-105`}
+                            css={`${activeExample == key ? 'bg-(--deep-blue) text-white font-semibold' : 'bg-(--soft-gray) hover:bg-(--bright-blue) hover:text-white text-(--dark-text) border border-[#ededed]'} transition duration-200 ease-in-out hover:scale-101 hover:cursor-pointer hover:shadow-lg active:scale-105`}
                             onClickFunc={()=>{
                                 setActiveExample(key);
                                 document.getElementById('example-flashcard').scrollIntoView({behavior: "smooth"});

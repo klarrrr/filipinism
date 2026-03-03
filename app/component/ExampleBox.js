@@ -56,7 +56,7 @@ const ExampleBox = ({css, title, examples}) => {
 
                     {/* Progress */}
 
-                    <p className="hidden md:block"><span className="font-semibold">{index+1}</span> out of <span className="font-semibold">{examples.length}</span></p>
+                    <p className="hidden md:block">{title}: <span className="font-semibold">{index+1}</span> out of <span className="font-semibold">{examples.length}</span></p>
 
                     {/* Next Button */}
 

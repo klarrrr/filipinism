@@ -2,7 +2,7 @@ import React from 'react'
 
 const EssayBox = ({content, num}) => {
   return (
-    <div className='bg-linear-50  from-(--deep-blue)  to-(--bright-blue) p-8 pr-12 pl-12 rounded-2xl flex justify-center items-center shadow-lg'>
+    <div className='bg-linear-50  from-(--deep-blue)  to-(--bright-blue) p-8 pr-12 pl-12 rounded-2xl flex justify-center items-center shadow-lg transition ease-in-out duration-200 hover:scale-101 hover:shadow-xl'>
         <p>{content}</p>
         <p className='font-semibold text-8xl absolute opacity-15'>{num}</p>
     </div>
