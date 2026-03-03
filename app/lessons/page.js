@@ -66,7 +66,7 @@ const page = () => {
           desc={'Apply what you\'ve learned through fun activities and challenges...'} 
           tags={["⏱️30-40 min", "⭐ Most Popular!"]} 
           count={5} 
-          loc={'lessons/interactive_practice'}
+          loc={'activities'}
         />
 
         <LessonCard 

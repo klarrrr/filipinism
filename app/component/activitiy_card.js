@@ -39,7 +39,7 @@ const activitiy_card = ({category, title, desc, tags, loc}) => {
             }
         </div>
         <a className="w-full bg-(--bright-blue) p-3 text-sm rounded-xl text-center hover:bg-(--deep-blue) transition ease-in-out duration-300 transform hover:scale-105" href={loc}>
-            Start Quiz
+            Start
         </a>
     </div>
   )

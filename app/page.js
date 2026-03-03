@@ -71,7 +71,35 @@ export default function Home() {
         <h2 className="md:text-xl w-3/6 sm:w-4/6 md:w-5/6 lg:w-full mb-8 relative">
           Master English with Confidence - An interactive learning platform for <span className="font-bold">Filipino 11th graders</span>
         </h2>
-        <CTAButton label={"Start Learning 🚀"} />
+        <a
+            href="/lessons"
+            className="
+                
+                pl-10 pr-10 pt-5 pb-5
+                bg-(--white)
+                text-(--bright-blue)
+                font-bold
+                text-xl
+                rounded-4xl
+                transition
+                ease-in-out
+                transform
+                drop-shadow-lg
+                hover:-translate-y-0.5
+                hover:drop-shadow-2xl
+                duration-300
+                self-center
+                w-fit
+                flex
+                gap-4
+            "
+        >
+          Start Learning
+          <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 16L12 14V10L13.6569 8.34314C15.1571 6.84285 16 4.80802 16 2.68629V0H13.3137C11.192 0 9.15714 0.842855 7.65685 2.34315L6 4H2L0 6L10 16ZM10.5 7C11.3284 7 12 6.32843 12 5.5C12 4.67157 11.3284 4 10.5 4C9.67157 4 9 4.67157 9 5.5C9 6.32843 9.67157 7 10.5 7Z" fill="#3B82F6"/>
+            <path d="M4.9274 13.7558L2.24423 11.0726L0 15L1 16L4.9274 13.7558Z" fill="#3B82F6"/>
+          </svg>
+        </a>
         <div
           className="absolute inset-y-0 left-6 flex items-center z-20"
         >
@@ -105,9 +133,29 @@ export default function Home() {
         xl:grid-cols-3 
         gap-4
       ">
-        <DBCard icon={'📚'} title={'What We Learn'} paragraph={'Common Filipino-English mistakes and how to correct them for better communication'} />
-        <DBCard icon={'🎯'} title={'Why It Matters'} paragraph={'Professional and academic success requires clear, grammatically correct English'} />
-        <DBCard icon={'🎮'} title={'How We Learn'} paragraph={'Interactive lessons, engaging quizzes, and fun activities make learning enjoyable'} />
+        <DBCard icon={
+          <svg width="50" height="50px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 0C3.34315 0 2 1.34315 2 3V13C2 14.6569 3.34315 16 5 16H14V14H4V12H14V0H5Z" fill="#1E3A8A"/>
+          </svg>
+        } title={'What We Learn'} paragraph={'Common Filipino-English mistakes and how to correct them for better communication'} />
+        <DBCard icon={
+          <svg width="50px" height="50px" viewBox="0 -0.5 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Dribbble-Light-Preview" transform="translate(-344.000000, -525.000000)" fill="#1E3A8A">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                          <polygon id="important_details-[#1443]" points="299 371 296.1554 371 298.1673 372.828 296.6108 374.243 294.6 372.414 294.6 375 292.4 375 292.4 372.414 290.3892 374.243 288.8327 372.828 290.8446 371 288 371 288 369 290.8446 369 288.8327 367.172 290.3892 365.757 292.4 367.586 292.4 365 294.6 365 294.6 367.586 296.6108 365.757 298.1673 367.172 296.1554 369 299 369">
+          
+          </polygon>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+        } title={'Why It Matters'} paragraph={'Professional and academic success requires clear, grammatically correct English'} />
+        <DBCard icon={
+          <svg width="50px" height="50px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13L3 14L6 11H10L13 14L16 13L15.248 4.7284C15.1076 3.18316 13.812 2 12.2604 2H3.73964C2.18803 2 0.89244 3.18316 0.751964 4.72839L0 13ZM12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6ZM12 8C12 8.55228 11.5523 9 11 9C10.4477 9 10 8.55228 10 8C10 7.44772 10.4477 7 11 7C11.5523 7 12 7.44772 12 8ZM5 8C6.10457 8 7 7.10457 7 6C7 4.89543 6.10457 4 5 4C3.89543 4 3 4.89543 3 6C3 7.10457 3.89543 8 5 8Z" fill="#1E3A8A"/>
+          </svg>
+        } title={'How We Learn'} paragraph={'Interactive lessons, engaging quizzes, and fun activities make learning enjoyable'} />
       </div>
 
       {/* Learning Journey */}

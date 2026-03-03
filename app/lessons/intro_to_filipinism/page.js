@@ -25,26 +25,32 @@ const page = () => {
 
             // What is Filipinism?
 
-            <div className='p-4 md:p-8 text-(--dark-text) rounded-xl flex flex-col gap-4'>
-              <h2 className='font-bold text-xl'>What is Filipinism?</h2>
-              <p>
-                  Filipinism refers to English words, phrases, or expressions that are influenced by Filipino language structures and are unique to Filipino English speakers. While these expressions make perfect sense in Filipino context, they often don't follow standard English grammar rules and can confuse native English speakers.
+            <div className='p-4 md:p-8 text-(--dark-text) rounded-xl flex flex-col gap-8'>
+              <p className='text-md lg:text-lg text-justify'>
+                <b>FILIPINISM</b> refers to unique linguistic expressions and usages shaped by Filipino culture and history, reflecting the distinct identity of Philippine English.
+              </p>
+
+              <p className='text-md lg:text-lg text-justify'>
+                Filipinism is a fascinating feature of Philippine English, where words or phrases are used in ways unique to Filipino culture and everyday life. These expressions often come from literal translations of Filipino phrases or localized adaptations of English, resulting in meanings that make perfect sense to Filipinos but may confuse native English speakers. For example, phrases like “open the light” (from buksan ang ilaw) or “for a while” (used to mean “wait”) are classic Filipinisms. They are not “wrong” English, but rather a reflection of how language evolves when influenced by history, culture, and bilingualism.  
               </p>
             </div>,
 
             // Key Concepts
 
-            <div className='p-4 md:p-8 text-(--dark-text) rounded-xl flex flex-col gap-4 bg-(--light-blue) border-(--bright-blue) border-l-4 border-r-4'>
-              <h2 className='font-bold text-lg'>Key Concepts</h2>
-              <ul className='list-disc pl-4 pr-4 md:pl-8 md-pr-8'>
+            <div className='p-4 md:p-8 text-(--dark-text) rounded-xl flex flex-col gap-8 bg-(--light-blue) border-(--bright-blue) border-l-4 border-r-4'>
+              <h2 className='font-bold text-lg'>Key Points About Filipinism</h2>
+              <ul className='list-disc pl-4 pr-4 md:pl-8 md-pr-8 flex flex-col gap-8 md:gap-4'>
                 <li>
-                  <span className='font-semibold'>Language Transfer:</span> When Filipino grammar rules are applied to English
+                  <span className='font-semibold'>Cultural Identity:</span> Filipinisms highlight the creativity of Filipinos in shaping English to fit local contexts.  
                 </li>
                 <li>
-                  <span className='font-semibold'>Cultural Context:</span> Expressions that make sense locally but not globally
+                  <span className='font-semibold'>Colloquial Usage:</span> Many are everyday phrases, often humorous or endearing, like “comfort room” for restroom.  
                 </li>
                 <li>
-                  <span className='font-semibold'>Code-Switching:</span> Moving between Filipino and English mid-sentence
+                  <span className='font-semibold'>Hybrid Language:</span> They show how Philippine English blends American English roots with Filipino linguistic patterns.
+                </li>
+                <li>
+                  <span className='font-semibold'>Global Impact:</span> While they may cause miscommunication abroad, they enrich the distinct identity of Philippine English.  
                 </li>
               </ul>
             </div>

@@ -51,7 +51,7 @@ const mobile_navbar = ({open, setOpen}) => {
       <div className='bg-(--bright-blue) p-2 pl-4 pr-4 rounded-md'>
         {/* TODO - make this dynamic later */}
         <p>
-          Progress: 3/6 ✨
+          Progress: 3/6
         </p>
       </div>
     </div>

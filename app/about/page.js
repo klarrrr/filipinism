@@ -25,12 +25,37 @@ const page = () => {
           2xl:grid-cols-3
           mb-0
         ">
-          <AboutCard name={'Buster Scruggs'} position={'Cowboy of the West'} desc={'Buster Scruggs is the titular protagonist of the first story in the 2018 black comedy Western film The Ballad of Buster Scruggs.'} picLoc={'/pic-1.jpg'}/>
-          <AboutCard name={'Lee Everett'} position={'World\'s Greatest Detective'} desc={'A history professor at the University of Georgia for almost six years before he was fired following his arrest.'} picLoc={'/pic-2.jpg'}/>
-          <AboutCard name={'Han Lue'} position={'Han Seoul-Oh'} desc={'An expert drifter, thief and a former business partner to Takashi who began as a member of Dominic Toretto\'s crew. '} picLoc={'/pic-3.jpg'}/>
-          <AboutCard name={'Maharana Pratap'} position={'King of Mewar'} desc={'Notable for leading the Rajput resistance against the expansionist policy of the Mughal Emperor Akbar including the battle of Haldighati.'} picLoc={'/pic-4.jpg'}/>
-          <AboutCard name={'Halle Berry'} position={'American Actress'} desc={'A model and beauty contestant becoming Miss Ohio in 1986, runner-up in Miss USA 1986 and placing sixth in Miss World 1986.'} picLoc={'/pic-5.jpg'}/>
-          <AboutCard name={'Casca'} position={'The Black Witch'} desc={'A former unit commander of the Band of the Falcon and an estranged companion of Guts.'} picLoc={'/pic-6.jpg'}/>
+          <AboutCard 
+            name={'Mary Stefhany Cabagua'} 
+            position={'The Wandering Storyweaver'} 
+            desc={'She is an English Education student who is passionate about learning, communication, and understanding how people express themselves. She aspires to travel the world, experience different cultures, and share what she learns to inspire and educate others.'} 
+            picLoc={'/researchers/MARY_STEFHANY_CABAGUA.jpeg'}/>
+          <AboutCard 
+            name={'Renz Kyle E. Ferrer'} 
+            position={'The Mindforge Illuminator'} 
+            desc={`A creative and reflective pre-service English educator committed to fostering students’ language proficiency, critical thinking, and cultural awareness through innovative and learner centered instruction.
+`} 
+            picLoc={'/researchers/RENZ_KYLE_E._FERRER.jpeg'}/>
+          <AboutCard 
+            name={'Romnick Q. Guanzon'} 
+            position={'The Verse Dancer'} 
+            desc={'An education student majoring in English. He is passionate about what he does—arts, writing, and dance. As a future educator, he continues to learn and develop his skills to empower the young minds in society.'} 
+            picLoc={'/researchers/ROMNICK_Q._GUANZON.jpg'}/>
+          <AboutCard 
+            name={'Francesca Jonnie C. Legaspi'} 
+            position={'The Heartforge Mentor'} 
+            desc={'She is studying English as her undergraduate major and aims to help shape a generation of compassionate and passionate learners. Determined, passionate, and deeply empathetic, she strives to make a lasting difference in the lives she touches.'} 
+            picLoc={'/researchers/FRANCESCA_JONNIE_C._LEGASPI.jpg'}/>
+          <AboutCard 
+            name={'Laarni D. Mendoza'} 
+            position={'The Relentless Ascendant'} 
+            desc={'She is a hardworking and goal-oriented student who consistently strives to give her best in every task. She values growth, responsibility, and continuous learning in all that she does.'} 
+            picLoc={'/researchers/LAARNI_D._MENDOZA.jpeg'}/>
+          <AboutCard 
+            name={'Paul Andrei S. Patrocenio'} 
+            position={'The Dawnbringer Luminary'} 
+            desc={'With an effervescent spirit and an optimistic heart, he brings light and encouragement wherever he goes. As a future educator, he hopes to inspire, uplift, and create a space where every learner feels valued and capable of growth.'} 
+            picLoc={'/researchers/PAUL_ANDREI_S._PATROCENIO.jpeg'}/>
         </div>
 
       {/* Our Journey */}
@@ -50,10 +75,22 @@ const page = () => {
         lg:pl-32 lg:pr-32 
         xl:pl-64 xl:pr-64 
       ">
-        <JourneyCard count={'1'} title={'The Problem'} desc={'We observed countless Filipino students struggling with English in professional and academic settings, not because they lacked vocabulary, but because of systematic Filipinisms in their speech and writing.'}/>
-        <JourneyCard count={'2'} title={'The Research'} desc={'Over 18 months, we conducted extensive research, surveying 500+ students and analyzing thousands of writing samples to identify the most common Filipinisms.'}/>
-        <JourneyCard count={'3'} title={'The Solution'} desc={'We created this interactive platform combining educational research with engaging technology to help students identify and correct Filipinisms systematically.'}/>
-        <JourneyCard count={'4'} title={'The Goal'} desc={'Our mission is to help 10,000+ Filipino students achieve English fluency that opens doors to global opportunities while maintaining pride in our cultural identity.'}/>
+        <JourneyCard 
+          count={'1'} 
+          title={'The Problem'} 
+          desc={'We observed countless Filipino students struggling with English in professional and academic settings, not because they lacked vocabulary, but because of systematic Filipinisms in their speech and writing.'}/>
+        <JourneyCard 
+          count={'2'} 
+          title={'The Research'} 
+          desc={'Over 18 months, we conducted extensive research, surveying 500+ students and analyzing thousands of writing samples to identify the most common Filipinisms.'}/>
+        <JourneyCard 
+          count={'3'} 
+          title={'The Solution'} 
+          desc={'We created this interactive platform combining educational research with engaging technology to help students identify and correct Filipinisms systematically.'}/>
+        <JourneyCard 
+          count={'4'} 
+          title={'The Goal'} 
+          desc={'Our mission is to help 10,000+ Filipino students achieve English fluency that opens doors to global opportunities while maintaining pride in our cultural identity.'}/>
       </div>
 
       {/* Our Mission */}

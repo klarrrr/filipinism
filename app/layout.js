@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="overscroll-none">
       <body
         className={`${poppins.variable} ${inter.variable} antialiased bg-(--soft-gray)`}
       >

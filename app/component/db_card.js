@@ -1,7 +1,10 @@
 const db_card = ({icon, title, paragraph}) => {
   return (
     <div className="
-        flex-1 
+        flex
+        flex-col
+        items-center
+        justify-center
         text-center
         p-16 
         shadow-lg
@@ -17,7 +20,7 @@ const db_card = ({icon, title, paragraph}) => {
         bg-white
     ">
       {/* Icon */}
-      <h1 className="text-5xl">{icon}</h1>
+      {icon}
       <h2 className="text-(--bright-blue) text-3xl font-bold">{title}</h2>
       <p className="text-md lg:text-lg xl:text-xl text-(--dark-text)">
         {paragraph}
