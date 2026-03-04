@@ -17,7 +17,7 @@ const page = () => {
         <LessonBox 
           dir={'Dashboard > Lessons > Examples in Everyday Language'} 
           title={'Examples in Everyday Language'}
-          subtitle={'Discovering common mistakes we make daily without realizing'}
+          subtitle={'Becoming aware of patterns in daily communication'}
 
           // Add elements in content:
           // separate by comma and put them by order

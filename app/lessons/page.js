@@ -5,7 +5,7 @@ const page = () => {
     <div className="flex-1 w-full h-screen space-y-8 animate-fade-in">
       <div className="p-16 flex items-center justify-center gap-4 flex-col mb-0">
         <h2 className="text-(--deep-blue) text-4xl font-bold text-center">Learning Modules</h2>
-        <p className="text-md lg:text-lg xl:text-xl text-(--dark-text) text-center">Explore comprehensive lessons designed to eliminate Filipinisms from your English</p>
+        <p className="text-md lg:text-lg xl:text-xl text-(--dark-text) text-center">Explore comprehensive lessons designed to strengthen your English while understanding the role of Filipinisms.</p>
       </div>
       <div className="
         pr-5
@@ -33,7 +33,7 @@ const page = () => {
           iconLoc={'/solve.svg'} 
           iconAlt={'Solve Logo'}
           title={'Examples in Everyday Language'} 
-          desc={'Discover common mistakes we make daily without realizing...'} 
+          desc={'Becoming aware of patterns in daily communication...'} 
           tags={["⏱️20-25 min", "✅ Completed"]} 
           count={2} 
           loc={'lessons/everyday_examples'}
@@ -43,7 +43,7 @@ const page = () => {
           iconLoc={'/dino.svg'} 
           iconAlt={'Dino Logo'}
           title={'Historical Roots'} 
-          desc={'Explore how Spanish and Filipino languages shaped our English...'} 
+          desc={'Discover the journey of English as it adapted to Filipino culture, giving rise to Filipinism...'} 
           tags={["⏱️18-22 min", "✅ Completed"]} 
           count={3} 
           loc={'lessons/historical_roots'}
@@ -53,7 +53,7 @@ const page = () => {
           iconLoc={'/phone.svg'} 
           iconAlt={'Phone Logo'}
           title={'Modern Relevance'} 
-          desc={'Why correcting Filipinisms matters in today\'s global world...'} 
+          desc={'Relevant today as it helps Filipinos live with pride and identity in the modern world...'} 
           tags={["⏱️15-18 min", "🔓 Unlocked"]} 
           count={4} 
           loc={'lessons/modern_relevance'}

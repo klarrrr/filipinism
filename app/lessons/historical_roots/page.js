@@ -17,7 +17,7 @@ const page = () => {
         <LessonBox 
           dir={'Dashboard > Lessons > Historical Roots'} 
           title={'Historical Roots'}
-          subtitle={'Explore how Spanish and Filipino languages shaped our English'}
+          subtitle={'Discover the journey of English as it adapted to Filipino culture, giving rise to Filipinism'}
 
           // Add elements in content:
           // separate by comma and put them by order

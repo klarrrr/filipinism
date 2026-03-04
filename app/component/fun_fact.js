@@ -13,7 +13,7 @@ const facts = [
 
     "'I need to go to the CR' (Comfort Room) is uniquely Filipino. The term 'Comfort Room' itself is a Filipinism — most English-speaking countries say restroom, bathroom, or toilet. 'CR' doesn't exist in standard English vocabulary at all!",
     
-    "Linguists point out that Filipinisms are a form of code-switching and language blending, which requires a bilingual or multilingual brain. The mistakes don't come from ignorance — they come from the brain actively translating between two complex language systems simultaneously. That's actually impressive!"
+"Linguists point out that Filipinisms are a form of code-switching and language blending, which requires a bilingual or multilingual brain. The mistakes don't come from ignorance — they come from the brain actively translating between two complex language systems simultaneously. That's actually impressive!"
 ];
 
 const randomFact = facts[Math.floor(Math.random() * facts.length)];

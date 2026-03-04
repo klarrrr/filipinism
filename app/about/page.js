@@ -78,7 +78,7 @@ const page = () => {
         <JourneyCard 
           count={'1'} 
           title={'The Problem'} 
-          desc={'We observed countless Filipino students struggling with English in professional and academic settings, not because they lacked vocabulary, but because of systematic Filipinisms in their speech and writing.'}/>
+          desc={'We observed countless Filipino students navigating challenges in professional and academic English, not because they lacked vocabulary, but because their speech and writing naturally carried Filipinism shaped by local usage.'}/>
         <JourneyCard 
           count={'2'} 
           title={'The Research'} 
@@ -86,11 +86,11 @@ const page = () => {
         <JourneyCard 
           count={'3'} 
           title={'The Solution'} 
-          desc={'We created this interactive platform combining educational research with engaging technology to help students identify and correct Filipinisms systematically.'}/>
+          desc={'This interactive platform blends research and technology to guide students in understanding how Filipinisms shape their English, and how to adjust usage for clearer communication in formal contexts.'}/>
         <JourneyCard 
           count={'4'} 
           title={'The Goal'} 
-          desc={'Our mission is to help Filipino students achieve English fluency that opens doors to global opportunities while maintaining pride in our cultural identity.'}/>
+          desc={'We aim to empower Filipino students with English fluency for global success, all while honoring the richness of our local linguistic heritage.'}/>
       </div>
 
       {/* Our Mission */}

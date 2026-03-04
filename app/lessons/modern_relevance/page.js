@@ -16,7 +16,7 @@ const page = () => {
         <LessonBox 
           dir={'Dashboard > Lessons > Modern Relevance'} 
           title={'Modern Relevance'}
-          subtitle={'Why correcting Filipinisms matters in today\'s global world'}
+          subtitle={'Relevant today as it helps Filipinos live with pride and identity in the modern world'}
 
           // Add elements in content:
           // separate by comma and put them by order
@@ -25,9 +25,9 @@ const page = () => {
 
             <div className='p-4 md:p-8 text-(--dark-text) rounded-xl flex flex-col gap-8'>
 
-                <p className='text-md lg:text-lg text-justify'>
+                {/* <p className='text-md lg:text-lg text-justify'>
                   Today, Filipinism is still very visible, especially in the formal essay writing of students. Since many Filipino students think in Filipino first before writing in English, some Filipino language patterns appear in their essays.
-                </p>
+                </p> */}
 
                 <h2 className='font-bold text-(--deep-blue) text-2xl text-center' >How It Is Relevant Today</h2>
 
@@ -46,9 +46,9 @@ const page = () => {
                   </ul>
                 </div>
 
-              <p className='text-md lg:text-lg text-justify'>
+              {/* <p className='text-md lg:text-lg text-justify'>
                 In academic writing, students are expected to use formal and accurate English. However, because of Filipinism, some expressions become directly translated from Filipino, which may affect clarity and lexical competency.
-              </p>
+              </p> */}
 
               <h2 className='font-bold text-(--deep-blue) text-2xl text-center' >Examples in Students’ Formal Writing</h2>
               
@@ -70,9 +70,9 @@ const page = () => {
                 </ul>
               </div>
 
-              <p className='text-md lg:text-lg text-justify'>
+              {/* <p className='text-md lg:text-lg text-justify'>
                 These examples show how Filipino thinking patterns can influence English essay writing.
-              </p>
+              </p> */}
 
               <h2 className='font-bold text-(--deep-blue) text-2xl text-center' >Relevance to Writing</h2>
 
@@ -89,11 +89,7 @@ const page = () => {
               <h2 className='font-bold text-(--deep-blue) text-2xl text-center' >Why It Matters</h2>
 
               <p className='text-md lg:text-lg text-justify'>
-                In today’s academic setting, strong formal writing skills are important. Filipinism is not simply a mistake—it reflects bilingual identity. However, in formal essays, students must learn when to adjust their language.
-              </p>
-
-              <p className='text-md lg:text-lg text-justify'>
-                By recognizing Filipinism in writing, students can improve their academic performance and develop better formal English skills.
+                In today’s academic setting, strong formal writing skills are important. By recognizing Filipinism in writing, students can improve their academic performance and develop better formal English skills.
               </p>
 
             </div>,
