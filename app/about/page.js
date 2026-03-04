@@ -38,7 +38,7 @@ const page = () => {
             picLoc={'/researchers/RENZ_KYLE_E._FERRER.jpeg'}/>
           <AboutCard 
             name={'Romnick Q. Guanzon'} 
-            position={'The Verse Dancer'} 
+            position={'The Verse Catalyst'} 
             desc={'An education student majoring in English. He is passionate about what he does—arts, writing, and dance. As a future educator, he continues to learn and develop his skills to empower the young minds in society.'} 
             picLoc={'/researchers/ROMNICK_Q._GUANZON.jpg'}/>
           <AboutCard 
@@ -82,7 +82,7 @@ const page = () => {
         <JourneyCard 
           count={'2'} 
           title={'The Research'} 
-          desc={'Over 18 months, we conducted extensive research, surveying 500+ students and analyzing thousands of writing samples to identify the most common Filipinisms.'}/>
+          desc={'Over 7 months, we conducted extensive research, surveying 200+ students and analyzing hundreds of writing samples to identify the most common Filipinisms.'}/>
         <JourneyCard 
           count={'3'} 
           title={'The Solution'} 
@@ -90,7 +90,7 @@ const page = () => {
         <JourneyCard 
           count={'4'} 
           title={'The Goal'} 
-          desc={'Our mission is to help 10,000+ Filipino students achieve English fluency that opens doors to global opportunities while maintaining pride in our cultural identity.'}/>
+          desc={'Our mission is to help Filipino students achieve English fluency that opens doors to global opportunities while maintaining pride in our cultural identity.'}/>
       </div>
 
       {/* Our Mission */}

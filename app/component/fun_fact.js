@@ -5,7 +5,7 @@ const facts = [
 
     "Saying 'I'll ride the elevator' or 'Let's ride the escalator' is a classic Filipinism. The Filipino word 'sakay' covers all forms of getting on something — a jeep, a bus, even an elevator. In standard English, you take or use an elevator, you don't ride it.",
 
-    "Filipinos love saying 'I can't cope up with the stress.' The correct phrase is simply 'cope with' — no 'up' needed. This likely came from mixing 'cope with' and 'keep up with' together, which is actually a really creative (if grammatically incorrect) blend!",
+    "Filipinos love saying 'I can't cope up with the stress.' The standard phrase is simply 'cope with' — no 'up' needed. This likely came from mixing 'cope with' and 'keep up with' together, which is actually a really creative blend!",
 
     "'I'll take my breakfast first' is something every Filipino student has said before class. The Filipino phrase 'kainin muna' got translated literally. In English, you eat your breakfast — you don't take it (unless you're taking it to go!).",
 

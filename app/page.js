@@ -67,9 +67,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-black/30" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(0,0,0,0.6)_100%)]" />
 
-        <h1 className="font-bold text-6xl md:text-7xl lg:text-8xl mb-8 relative"><span className="text-(--sky-blue)">Break</span> Free from <span className="text-(--bright-blue)">Filipinism</span></h1>
+        <h1 className="font-bold text-6xl md:text-7xl lg:text-8xl mb-8 relative"><span className="text-(--sky-blue)">Learn</span> more about <span className="text-(--bright-blue)">Filipinism</span></h1>
         <h2 className="md:text-xl w-3/6 sm:w-4/6 md:w-5/6 lg:w-full mb-8 relative">
-          Master English with Confidence - An interactive learning platform for <span className="font-bold">Filipino 11th graders</span>
+          Master English with Confidence - An interactive learning platform for <span className="font-bold">Filipino Learners</span>
         </h2>
         <a
             href="/lessons"
@@ -137,7 +137,7 @@ export default function Home() {
           <svg width="50" height="50px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 0C3.34315 0 2 1.34315 2 3V13C2 14.6569 3.34315 16 5 16H14V14H4V12H14V0H5Z" fill="#1E3A8A"/>
           </svg>
-        } title={'What We Learn'} paragraph={'Common Filipino-English mistakes and how to correct them for better communication'} />
+        } title={'What We Learn'} paragraph={'How it is integrated into daily communication, including academic settings, highlighting the practical application of learning in both personal and professional discourse'} />
         <DBCard icon={
           <svg width="50px" height="50px" viewBox="0 -0.5 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
