@@ -78,7 +78,7 @@ const page = () => {
         <JourneyCard 
           count={'1'} 
           title={'The Problem'} 
-          desc={'We observed countless Filipino students navigating challenges in professional and academic English, not because they lacked vocabulary, but because their speech and writing naturally carried Filipinism shaped by local usage.'}/>
+          desc={'We observed many Filipino students whose speech and writing naturally reflected Filipinism shaped by local usage, highlighting the unique blend of local culture and language in their communication.'}/>
         <JourneyCard 
           count={'2'} 
           title={'The Research'} 
